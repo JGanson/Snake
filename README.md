@@ -1,10 +1,25 @@
-# Teach AI To Play Snake! Reinforcement Learning With PyTorch and Pygame
+# English Chatbot
 
-In this Python Reinforcement Learning Tutorial series we teach an AI to play Snake! We build everything from scratch using Pygame and PyTorch. The tutorial consists of 4 parts:
+## Introduction to the Project:    
+    This project is using reinforcement learning to play snake game
 
-You can find all tutorials on my channel: [Playlist](https://www.youtube.com/playlist?list=PLqnslRFeH2UrDh7vUmJ60YrmWd64mTTKV)
+    This Project is modified base on original Project : https://github.com/patrickloeber/snake-ai-pytorch (A Great Thanks!)
 
-- Part 1: I'll show you the project and teach you some basics about Reinforcement Learning and Deep Q Learning.
-- Part 2: Learn how to setup the environment and implement the Snake game.
-- Part 3: Implement the agent that controls the game.
-- Part 4: Implement the neural network to predict the moves and train it.
+## Explain to Each Folder and File:
+    agent: help connenct game control and AI model
+    game: game control panel
+    model: model and training stuff
+
+## Recommend Environment:
+    python 3.8, pygame: 2.1.2, pytorch: 1.12
+
+## Running Procedures:
+    run agent.py
+
+
+## 77 epoch trainning model example:
+
+
+![alt text](./assets/1.JPG?raw=true)
+![alt text](./assets/2.JPG?raw=true)
+![alt text](./assets/3.JPG?raw=true)
